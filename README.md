@@ -13,9 +13,12 @@ http://facebook.github.io/stetho/
     compile 'com.facebook.stetho:stetho:1.3.1' 
   }
 
-public class MyApplication extends Application {
-  public void onCreate() {
-    super.onCreate();
+
+<br>
+// in oCeate method add: <br>
     Stetho.initializeWithDefaults(this);
-  }
-}
+<br>
+
+// make sure imported : Stetho
+<br>
+lunch :    chrome://inspect
