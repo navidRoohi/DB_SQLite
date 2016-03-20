@@ -13,3 +13,9 @@ http://facebook.github.io/stetho/
     compile 'com.facebook.stetho:stetho:1.3.1' 
   }
 
+public class MyApplication extends Application {
+  public void onCreate() {
+    super.onCreate();
+    Stetho.initializeWithDefaults(this);
+  }
+}
