@@ -15,7 +15,7 @@ http://facebook.github.io/stetho/
 
 
 <br>
-// in oCeate method add: <br>
+// in onCeate method add: <br>
     Stetho.initializeWithDefaults(this);
 <br>
 
